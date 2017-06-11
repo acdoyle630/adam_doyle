@@ -27,7 +27,6 @@ h1{
 h2{
   font-size:18px;
   height:30px;
-  border:10px solid purple
 }
 
 .page-container{
@@ -61,6 +60,14 @@ h2{
   width:90%
 }
 
-#skillLists{
-  background-color: red
+.skillLists{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#allSkills{
+  display: flex;
+  justify-content: space-around;
+
 }
