@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/acdoyle630.github.io/precache-manifest.c89f1d4055b362421205401739977b6c.js"
+  "/adam_doyle/precache-manifest.a05374cc2ffb7c4f60f80dc1633260aa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/acdoyle630.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/adam_doyle/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
