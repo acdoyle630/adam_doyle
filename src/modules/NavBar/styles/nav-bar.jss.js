@@ -1,8 +1,10 @@
 const style = {
     navBar: {
+        height: '9vh',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'center',
         borderBottom: '1px black solid'
     },
     logo: {
@@ -12,12 +14,16 @@ const style = {
         display: 'flex',
         flexDirection: 'row',
         path: {
-            color: 'green',
-            marginRight: '20px',
+            marginRight: '30px',
+            cursor: 'pointer'
         }
     },
     hamburger: {
         color: 'blue'
+    },
+    resumeLink: {
+        textDecoration: 'none',
+        color: 'black',
     }
 }
 

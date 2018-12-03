@@ -1,6 +1,7 @@
 import React from 'react'
 import Hamburger from './hamburger'
-import style from '../styles/navBar.jss'
+import Resume from '../../../resources/Adam-Doyle-Resume.pdf'
+import style from '../styles/nav-bar.jss'
 
 const NavBar = function(props){
   
@@ -33,7 +34,7 @@ const NavBar = function(props){
             </div>}
         </div>
         <div style={style.paths.path}>
-            Resume
+            <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
         </div>
       </div>
       : <Hamburger

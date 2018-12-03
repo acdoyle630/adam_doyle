@@ -2,6 +2,9 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
+import { Menu as MenuIcon } from '@material-ui/icons'
+import Resume from '../../../resources/Adam-Doyle-Resume.pdf'
+import style from '../styles/nav-bar.jss.js'
 
 class Hamburger extends React.Component {
     state = {
@@ -38,7 +41,7 @@ class Hamburger extends React.Component {
           <Button
             onClick={this.handleClick}
           >
-            Open Menu
+            <MenuIcon />
           </Button>
           <Menu
             id="simple-menu"
@@ -56,7 +59,9 @@ class Hamburger extends React.Component {
             ? <div> Home </div>
             : <div> About </div>}
             </MenuItem>
-            <MenuItem onClick={this.handleOpenResume}>Resume</MenuItem>
+            <MenuItem>
+                    <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
+            </MenuItem>
           </Menu>
         </div>
       )

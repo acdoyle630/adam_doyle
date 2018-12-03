@@ -3,12 +3,18 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { openAbout, closeAbout } from '../../../actions/about-action'
 import NavBarComponent from '../components/nav-bar-component'
+import resume from '../../../resources/Adam-Doyle-Resume.pdf'
 
 class NavBarContainer extends Component {
+
+  viewResume = () => {
+      window.open( "data:application/pdf" + resume)
+  }
   
   render() {
     return (
         <NavBarComponent
+            viewResume={this.viewResume}
             screenSize={this.props.screenSize}
             aboutOpen={this.props.aboutOpen}
             openAbout={this.props.openAbout}
