@@ -13,26 +13,9 @@ const NavBar = function(props){
       {props.screenSize === 'desktop'
       ?
       <div style={style.paths}>
-        <div 
-            style={style.paths.path}
-        >
-            {props.aboutOpen
-            ? <div 
-                onClick={(() => {
-                    props.closeAbout()
-                })}
-            >
-                Home
-            </div>
-            : 
-            <div
-                onClick={(() => {
-                    props.openAbout()
-                })}
-              >
-                About
-            </div>}
-        </div>
+        <div style={style.paths.path}> About </div>
+        <div style={style.paths.path}> Experience </div>
+        <div style={style.paths.path}> Contact </div>
         <div style={style.paths.path}>
             <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
         </div>

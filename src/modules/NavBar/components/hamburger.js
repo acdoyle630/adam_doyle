@@ -18,16 +18,6 @@ class Hamburger extends React.Component {
     handleOpenResume = () => {
         this.handleClose()
     }
-
-    handleCloseAbout = () => {
-        this.handleClose()
-        this.props.closeAbout()
-    }
-
-    handleOpenAbout = () => {
-        this.handleClose()
-        this.props.openAbout()
-    }
   
     handleClose = () => {
         this.setState({ anchorEl: null })
@@ -49,16 +39,9 @@ class Hamburger extends React.Component {
             open={Boolean(anchorEl)}
             onClose={this.handleClose}
           >
-            <MenuItem
-                onClick={this.props.aboutOpen
-                    ? this.handleCloseAbout
-                    : this.handleOpenAbout
-                }
-            >
-                {this.props.aboutOpen
-            ? <div> Home </div>
-            : <div> About </div>}
-            </MenuItem>
+            <MenuItem> About </MenuItem>
+            <MenuItem> Experience </MenuItem>
+            <MenuItem> Contact </MenuItem>
             <MenuItem>
                     <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
             </MenuItem>

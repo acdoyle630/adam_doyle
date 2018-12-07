@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { setScreenSize } from './actions/screen-size-action'
-import NavBarContainer from './modules/NavBar/containers/nav-bar-container.js'
-import './App.css';
+import NavBarContainer from './modules/NavBar/containers/nav-bar-container'
+import Headline from './modules/Headline/components/headline'
+import About from './modules/About/components/about'
+import './App.css'
 
 class App extends Component {
 
@@ -20,6 +22,8 @@ class App extends Component {
     return (
       <div>
         <NavBarContainer />
+        <Headline />
+        <About />
       </div>
     )
   }

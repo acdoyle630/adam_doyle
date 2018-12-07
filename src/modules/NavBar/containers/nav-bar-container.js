@@ -16,9 +16,6 @@ class NavBarContainer extends Component {
         <NavBarComponent
             viewResume={this.viewResume}
             screenSize={this.props.screenSize}
-            aboutOpen={this.props.aboutOpen}
-            openAbout={this.props.openAbout}
-            closeAbout={this.props.closeAbout}
         />
     )
   }
