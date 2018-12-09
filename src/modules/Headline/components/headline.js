@@ -15,6 +15,9 @@ const  Headline = (() => {
         <div style={style.wat}>
             {text.wat}
         </div>
+        <div style={style.details}>
+            {text.details}
+        </div>
         <div style={style.contact}>
             {text.contact}
         </div>

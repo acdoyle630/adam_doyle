@@ -8,7 +8,8 @@ const style = {
         borderBottom: '1px black solid'
     },
     logo: {
-        color: 'red'
+        color: 'red',
+        marginLeft: '50px'
     },
     paths: {
         display: 'flex',
