@@ -23,7 +23,7 @@ class NavBarContainer extends Component {
             viewResume={this.viewResume}
             screenSize={this.props.screenSize}
             scrollToElement={this.scrollToElement}
-            style={style.NavBarComponent}
+            style={style.navBarComponent}
         />
         </div>
     )
