@@ -17,11 +17,18 @@ class App extends Component {
   resize = () => {
     this.props.setScreenSize(window.innerWidth)
   }
+
+  scrollToMyRef = (elementId) => {
+      if(elementId){
+      const el = document.getElementById(elementId)
+      el.scrollIntoView({behavior: 'smooth'})
+    }
+  }
   
   render() {
     return (
       <div>
-        <NavBarContainer />
+        <NavBarContainer scrollToMyRef={this.scrollToMyRef} />
         <Headline />
         <AboutContainer />
       </div>

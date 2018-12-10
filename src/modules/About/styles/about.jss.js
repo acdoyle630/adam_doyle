@@ -23,13 +23,20 @@ const style = {
     aboutWords: {
         display: 'flex',
         flexDirection: 'column',
+        marginBottom: '50px'
     },
     aboutText: {
-        marginRight: '10px'
+        marginRight: '10px',
+        marginBottom: '10px'
     },
     skills: {
         display: 'flex',
         flexDirection: 'row',
+    },
+    skillsColumn: {
+        display: 'flex',
+        flexDirection: 'column',
+        marginRight: '20px',
     },
     profilePicture:{
         width: '200px',

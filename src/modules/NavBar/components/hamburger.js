@@ -5,6 +5,7 @@ import MenuItem from '@material-ui/core/MenuItem'
 import { Menu as MenuIcon } from '@material-ui/icons'
 import Resume from '../../../resources/Adam-Doyle-Resume.pdf'
 import style from '../styles/nav-bar.jss.js'
+import ROUTES from '../../../constants/routes'
 
 class Hamburger extends React.Component {
     state = {
@@ -21,6 +22,11 @@ class Hamburger extends React.Component {
   
     handleClose = () => {
         this.setState({ anchorEl: null })
+    }
+
+    scroll = async (element) => {
+        await this.handleClose()
+        this.props.scrollToElement(element)
     }
   
     render() {
@@ -39,9 +45,15 @@ class Hamburger extends React.Component {
             open={Boolean(anchorEl)}
             onClose={this.handleClose}
           >
-            <MenuItem> About </MenuItem>
-            <MenuItem> Experience </MenuItem>
-            <MenuItem> Contact </MenuItem>
+            <MenuItem onClick={(() => {
+                this.scroll(ROUTES.ABOUT)
+            })}> About </MenuItem>
+            <MenuItem onClick={(() => {
+                this.scroll(ROUTES.EXPERIENCE)
+            })}> Experience </MenuItem>
+            <MenuItem onClick={(() => {
+                this.scroll(ROUTES.CONTACT)
+            })}> Contact </MenuItem>
             <MenuItem>
                     <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
             </MenuItem>

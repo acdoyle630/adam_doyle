@@ -3,7 +3,8 @@ import colors from '../../../themes/colors'
 
 const style = {
     headline: {
-        ...themes.body
+        ...themes.body,
+        marginTop: '50px'
     },
     intro: {
         color: colors.primary,

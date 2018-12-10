@@ -8,7 +8,7 @@ const fontSize = {
 const themes = {
     body: {
         marginLeft: '50px',
-        marginBottom: '50px'
+        marginBottom: '50px',
     },
     componentHeader: {
         color: colors.primary,

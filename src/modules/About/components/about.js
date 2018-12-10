@@ -5,7 +5,7 @@ import profilePicture from '../../../images/Adam_Doyle_img.jpg'
 
 const  About = ((props) => {
     return (
-        <div style={style.about}>
+        <div id={'about'} style={style.about}>
             <div style={style.aboutHeader}>
                 {text.aboutHeader}
             </div>
@@ -15,14 +15,14 @@ const  About = ((props) => {
                         {text.aboutText}
                     </div>
                     <div style={style.skills}>
-                        <ul>
+                        <div style={style.skillsColumn}>
                             <li>JavaScript</li>
                             <li>React</li>
-                        </ul>
-                        <ul>
+                        </div>
+                        <div style={style.skillsColumn}>
                             <li>HTML</li>
                             <li>CSS</li>
-                        </ul>
+                        </div>
                     </div>
                 </div>
                 <img
