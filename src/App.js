@@ -5,6 +5,7 @@ import { setScreenSize } from './actions/screen-size-action'
 import NavBarContainer from './modules/NavBar/containers/nav-bar-container'
 import Headline from './modules/Headline/components/headline'
 import AboutContainer from './modules/About/containers/about-container'
+import ExperienceContainer from './modules/Experience/containers/experience-container'
 import './App.css'
 
 class App extends Component {
@@ -21,7 +22,10 @@ class App extends Component {
   scrollToMyRef = (elementId) => {
       if(elementId){
       const el = document.getElementById(elementId)
-      el.scrollIntoView({behavior: 'smooth'})
+      el.scrollIntoView({
+          behavior: 'smooth',
+          //block: 'start' + 10
+        }) 
     }
   }
   
@@ -31,6 +35,7 @@ class App extends Component {
         <NavBarContainer scrollToMyRef={this.scrollToMyRef} />
         <Headline />
         <AboutContainer />
+        <ExperienceContainer />
       </div>
     )
   }

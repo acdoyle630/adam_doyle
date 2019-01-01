@@ -12,7 +12,8 @@ const themes = {
     },
     componentHeader: {
         color: colors.primary,
-        fontSize: fontSize.componentHeader
+        fontSize: fontSize.componentHeader,
+        marginBottom: '15px',
     },
     componentSubHeader: {
         color: colors.secondary,
