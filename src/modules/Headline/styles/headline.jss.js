@@ -20,7 +20,7 @@ const style = {
         marginBottom: '30px',
     },
     details: {
-        color: colors.secondary,
+        ...themes.componentSubHeader,
         marginBottom: '30px',
     },
     contact: {

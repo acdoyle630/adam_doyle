@@ -7,6 +7,10 @@ const style = {
     experienceHeader: {
         ...themes.componentHeader
     },
+    jobInfo: {
+        display: 'flex',
+        flexDirection: 'row',
+    }
 }
 
 export default style 

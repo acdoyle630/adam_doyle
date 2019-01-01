@@ -1,5 +1,6 @@
 import React from 'react'
 import CompanyNamesContainer from './containers/company-names-container'
+import JobContainer from './containers/job-container.js'
 import style from './experience.jss'
 
 const  About = ((props) => {
@@ -8,7 +9,10 @@ const  About = ((props) => {
             <div style={style.experienceHeader}>
                 Experience
             </div>
-            <CompanyNamesContainer />
+            <div style={style.jobInfo}>
+                <CompanyNamesContainer />
+                <JobContainer />
+            </div>
         </div>
     )
 })

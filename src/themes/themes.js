@@ -2,7 +2,6 @@ import colors from './colors'
 
 const fontSize = {
     componentHeader: '30px',
-    componentSubHeader: '20px',
 }   
 
 const themes = {
@@ -17,7 +16,6 @@ const themes = {
     },
     componentSubHeader: {
         color: colors.secondary,
-        fontSize: fontSize.componentSubHeader,
     }
 }
 
