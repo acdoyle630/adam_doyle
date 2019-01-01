@@ -3,7 +3,15 @@ import style from './job.jss'
 import JOB_INFO from '../../../../../constants/job-info'
 
 const  Job = ((props) => {
-    console.log(props)
+    const populateBullets = (() => {
+       return JOB_INFO[props.selectedCompany].bullets.map((bullet) => {
+                return( 
+                    <li style={style.bullet}>
+                        {bullet}
+                    </li>
+                )
+        })
+    })
     return (
         <div style={style.jobs}>
             <div style={style.jobHeader}>
@@ -16,6 +24,9 @@ const  Job = ((props) => {
             </div>
             <div style={style.dates}>
                 {JOB_INFO[props.selectedCompany].dates}
+            </div>
+            <div style={style.bulletContainer}>
+                {populateBullets()}
             </div>
         </div>
     )

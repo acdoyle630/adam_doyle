@@ -21,6 +21,12 @@ const style = {
     dates: {
         color: colors.primary
     },
+    bullet: {
+        color: colors.secondary,
+    },
+    bulletContainer: {
+        marginTop: '20px',
+    }
 }
 
 export default style
