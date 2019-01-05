@@ -6,6 +6,7 @@ import NavBarContainer from './modules/NavBar/containers/nav-bar-container'
 import Headline from './modules/Headline/components/headline'
 import AboutContainer from './modules/About/containers/about-container'
 import ExperienceContainer from './modules/Experience/containers/experience-container'
+import Contact from './modules/Contact/containers/contact-container'
 import './App.css'
 
 class App extends Component {
@@ -36,6 +37,7 @@ class App extends Component {
         <Headline />
         <AboutContainer />
         <ExperienceContainer />
+        <Contact />
       </div>
     )
   }

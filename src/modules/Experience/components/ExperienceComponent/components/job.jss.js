@@ -5,6 +5,7 @@ const style = {
     jobs: {
         marginRight: '50px',
         marginLeft: '20px',
+        border: '1px solid black'
     },
     jobHeader: {
         display: 'flex',
