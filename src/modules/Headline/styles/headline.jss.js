@@ -3,31 +3,58 @@ import colors from '../../../themes/colors'
 
 const style = {
     headline: {
-        ...themes.body,
-        marginTop: '50px'
+        desktop: {
+            ...themes.body.desktop,
+            marginTop: '50px'
+        },
+        mobile: {
+            ...themes.body.mobile,
+            marginTop: '50px'
+        }
     },
     intro: {
-        color: colors.primary,
-        fontSize: '15x'
+        color: colors.grey,
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
+        fontSize: '20px',
+        fontWeight: 'bold',
+        marginBottom: '15px'
     },
     myNameIs: {
-        color: colors.primary,
-        fontSize: '50px',
+        color: colors.blue,
+        fontSize: '70px',
+        fontWeight: 'bold',
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
+        marginBottom: '15px'
     },
     wat: {
-        color: colors.secondary,
-        fontSize: '50px',
-        marginBottom: '30px',
+        color: colors.white,
+        fontSize: '20px',
+        marginBottom: '15 px',
+        fontWeight: 'bold',
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
     },
     details: {
-        ...themes.componentSubHeader,
-        marginBottom: '30px',
+        color: colors.grey,
+        fontWeight: 'bold',
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
+        fontSize: '20px',
+        marginBottom: '15px',
     },
     contact: {
-        color: colors.third,
-        border: `1px ${colors.third} solid`,
+        backgroundColor: colors.blue,
         padding: '5px',
-        width: '70px',
+        width: '110px',
+        display: 'flex',
+        justifyContent: 'center',
+        fontWeight: 'bold',
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
+        fontSize: '15px',
+
     }
 }
 

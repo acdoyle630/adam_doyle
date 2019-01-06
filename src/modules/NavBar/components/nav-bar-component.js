@@ -8,7 +8,7 @@ const NavBar = function(props){
   
   return (
     <div style={style.navBar}>
-      <div style={style.logo}>
+      <div style={style.logo[props.screenSize]}>
         Logo
       </div>
       {props.screenSize === 'desktop'

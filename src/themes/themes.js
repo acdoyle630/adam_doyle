@@ -6,16 +6,32 @@ const fontSize = {
 
 const themes = {
     body: {
-        marginLeft: '50px',
-        marginBottom: '50px',
+        desktop: {
+            marginLeft: '103px',
+            marginRight: '200px',
+            marginBottom: '150px',
+            backgroundColor: colors.background
+        },
+        mobile: {
+            marginBottom: '150px',
+            backgroundColor: colors.background,
+            marginLeft: '10px',
+            marginRight: '10px',
+        }
     },
     componentHeader: {
-        color: colors.primary,
+        color: colors.blue,
         fontSize: fontSize.componentHeader,
         marginBottom: '15px',
+        fontWeight: 'bold',
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
     },
     componentSubHeader: {
-        color: colors.secondary,
+        color: colors.white,
+        fontFamily: 'Helvetica',
+        lineHeight: 'normal',
+
     }
 }
 

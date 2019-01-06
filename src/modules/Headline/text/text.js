@@ -1,9 +1,8 @@
 const text = {
     intro: 'Hi, my name is',
-    myNameIs: 'Adam Doyle',
-    wat: 'I build applications',
-    contact: 'CONTACT',
-    details: 'Lorem ipsum dolor sit amet, ceteros forensibus his ne, qui rebum recusabo prodesset ex. Eam ea vocent pericula hendrerit. Vis te vidit efficiantur, cu nec invenire complectitur consectetuer. Mei quod dolor menandri ad, at vel dicat fuisset, causae electram cu pro. ',
+    myNameIs: 'ADAM DOYLE',
+    wat: 'I\'m a software engineer specializing in developing high-quality mobile and web applications.  Currently working at Walmart Labs as a software engineer.',
+    contact: 'Get in Touch',
+    details: 'Currently working at Walmart Labs as a software engineer.'
 }
-
 export default text

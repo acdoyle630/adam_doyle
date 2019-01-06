@@ -1,8 +1,14 @@
-import themes from "../../../themes/themes";
+import themes from "../../../themes/themes"
+import colors from '../../../themes/colors'
 
 const style = {
     about: {
-        ...themes.body
+        desktop: {
+            ...themes.body.desktop
+        },
+        mobile: {
+            ...themes.body.mobile
+        }
     },
     aboutHeader: {
         ...themes.componentHeader
@@ -27,11 +33,20 @@ const style = {
     },
     aboutText: {
         marginRight: '10px',
-        marginBottom: '10px'
+        marginBottom: '30px',
+    },
+    skillsHeader: {
+        ...themes.componentSubHeader,
+        color: colors.grey,
+        marginBottom: '30px',
+        fontWeight: 'bold',
     },
     skills: {
         display: 'flex',
         flexDirection: 'row',
+    },
+    individualSkill:{
+        marginBottom: '10px'
     },
     skillsColumn: {
         display: 'flex',

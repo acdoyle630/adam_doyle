@@ -1,3 +1,5 @@
+import colors from '../../../themes/colors'
+
 const style = {
     navBar: {
         height: '9vh',
@@ -5,30 +7,47 @@ const style = {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        borderBottom: '1px black solid',
-        background: 'white',
+        //borderBottom: '1px black solid', Add box shadow when in movement
+        backgroundColor: colors.background,
         position: 'fixed',
         width: '100vw',
         marginTop: '-50px'
     },
     logo: {
-        color: 'red',
-        marginLeft: '50px'
+        desktop: {
+            color: colors.white,
+            marginLeft: '103px'
+        },
+        mobile: {
+            color: colors.white,
+            marginLeft: '10px'
+        }
     },
     paths: {
         display: 'flex',
         flexDirection: 'row',
         path: {
             marginRight: '30px',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            color: colors.white,
         }
     },
     hamburger: {
-        color: 'blue'
+        color: colors.white
     },
     resumeLink: {
         textDecoration: 'none',
-        color: 'black',
+        color: colors.white,
+        border: `1px solid ${colors.white}`,
+        width: '107px',
+        height: '40px',
+        boxSizing: 'border-box',
+        borderRadius: '5px',
+        padding: '3px',
+        mobile: {
+            textDecoration: 'none',
+            color: 'black'
+        }
     }
 }
 

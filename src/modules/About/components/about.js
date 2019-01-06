@@ -5,7 +5,7 @@ import profilePicture from '../../../images/Adam_Doyle_img.jpg'
 
 const  About = ((props) => {
     return (
-        <div id={'about'} style={style.about}>
+        <div id={'about'} style={style.about[props.screenSize]}>
             <div style={style.aboutHeader}>
                 {text.aboutHeader}
             </div>
@@ -14,14 +14,24 @@ const  About = ((props) => {
                     <div style={style.aboutText}>
                         {text.aboutText}
                     </div>
+                    <div style={style.skillsHeader}>
+                        {text.skillsHeader}
+                    </div>
                     <div style={style.skills}>
                         <div style={style.skillsColumn}>
-                            <li>JavaScript</li>
-                            <li>React</li>
+                            <div style={style.individualSkill}>JavaScript</div>
+                            <div style={style.individualSkill}>HTML & CSS</div>
+                            <div style={style.individualSkill}>React & Redux</div>
                         </div>
                         <div style={style.skillsColumn}>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <div style={style.individualSkill}>Node</div>
+                            <div style={style.individualSkill}>MongoDB</div>
+                            <div style={style.individualSkill}>Express</div>
+                        </div>
+                        <div style={style.skillsColumn}>
+                            <div style={style.individualSkill}>Agile/Scrum methodologies</div>
+                            <div style={style.individualSkill}>Responsive/Mobile First Development</div>
+                            <div style={style.individualSkill}>Test-Driven Development</div>
                         </div>
                     </div>
                 </div>

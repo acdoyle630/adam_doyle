@@ -2,10 +2,10 @@ import React from 'react'
 import style from '../styles/headline.jss'
 import text from '../text/text.js'
 
-const  Headline = (() => {
+const  Headline = ((props) => {
 
     return (
-    <div style={style.headline}>
+    <div style={style.headline[props.screenSize]}>
         <div style={style.intro}>
             {text.intro}
         </div>

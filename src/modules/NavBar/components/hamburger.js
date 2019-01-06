@@ -37,7 +37,7 @@ class Hamburger extends React.Component {
           <Button
             onClick={this.handleClick}
           >
-            <MenuIcon />
+          <MenuIcon style={style.hamburger}/>
           </Button>
           <Menu
             id="simple-menu"
@@ -55,7 +55,7 @@ class Hamburger extends React.Component {
                 this.scroll(ROUTES.CONTACT)
             })}> Contact </MenuItem>
             <MenuItem>
-                    <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
+                    <a href={Resume} target={'_blank'} style={style.resumeLink.mobile}>Resume</a>
             </MenuItem>
           </Menu>
         </div>
