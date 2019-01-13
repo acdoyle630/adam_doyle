@@ -12,8 +12,8 @@ class NavBarContainer extends Component {
       window.open( "data:application/pdf" + resume)
   }
 
-  scrollToElement = () => {
-      this.props.scrollToMyRef('about')
+  scrollToElement = (route) => {
+      this.props.scrollToMyRef(route)
   }
   
   render() {

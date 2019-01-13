@@ -1,7 +1,7 @@
 const ROUTES = {
     ABOUT: 'about',
-    EXPERIENCE: 'about',
-    CONTACT: 'about'
+    EXPERIENCE: 'experience',
+    CONTACT: 'contact'
 }
 
 export default ROUTES

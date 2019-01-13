@@ -7,7 +7,7 @@ const  GetInTouch = ((props) => {
     console.log(props)
 
     return (
-    <div style={styles.getInTouch[props.screenSize]}>
+    <div id={'contact'} style={styles.getInTouch[props.screenSize]}>
         <div style={styles.header}>
             {text.HEADER}
         </div>

@@ -9,7 +9,7 @@ const NavBar = function(props){
   
   return (
     <div style={style.navBar[props.screenSize]}>
-      <div style={style.logo[props.screenSize]}>
+      <div>
       <img
         style={style.logo[props.screenSize]}
         src={logo}
@@ -28,9 +28,7 @@ const NavBar = function(props){
         <div onClick={(() => {
             props.scrollToElement(ROUTES.CONTACT)
         })} style={style.paths.path}> Contact </div>
-        <div onClick={(() => {
-            props.scrollToElement('about')
-        })} style={style.paths.path}>
+        <div style={style.paths.path}>
             <a href={Resume} target={'_blank'} style={style.resumeLink}>Resume</a>
         </div>
       </div>

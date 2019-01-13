@@ -13,7 +13,7 @@ const style = {
             position: 'fixed',
             width: '100vw',
             marginTop: '-50px',
-            marginLeft: '103px'
+            //marginLeft: '103px'
         },
         mobile: {
             height: '9vh',
@@ -26,13 +26,14 @@ const style = {
             position: 'fixed',
             width: '100vw',
             marginTop: '-50px',
-            marginLeft: '10px'
+           // marginLeft: '10px'
         }
     },
     logo: {
         desktop: {
             height: '30px',
             color: colors.white,
+            marginLeft: '103px'
         },
         mobile: {
             height: '30px',
