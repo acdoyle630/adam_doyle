@@ -12,8 +12,11 @@
     "@material-ui/icons": "^3.0.1",
     "material-ui": "^1.0.0-beta.47",
     "react": "^16.6.0",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-scrollbar": "^0.5.4",
+    "react-scrollbar-js": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",

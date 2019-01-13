@@ -8,7 +8,7 @@ const themes = {
     body: {
         desktop: {
             marginLeft: '103px',
-            marginRight: '200px',
+            marginRight: '103px',
             marginBottom: '150px',
             backgroundColor: colors.background
         },
@@ -21,7 +21,7 @@ const themes = {
     },
     componentHeader: {
         color: colors.blue,
-        fontSize: fontSize.componentHeader,
+        fontSize: fontSize.componentHeader, 
         marginBottom: '15px',
         fontWeight: 'bold',
         fontFamily: 'Helvetica',

@@ -2,25 +2,41 @@ import colors from '../../../themes/colors'
 
 const style = {
     navBar: {
-        height: '9vh',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        //borderBottom: '1px black solid', Add box shadow when in movement
-        backgroundColor: colors.background,
-        position: 'fixed',
-        width: '100vw',
-        marginTop: '-50px'
-    },
-    logo: {
         desktop: {
-            color: colors.white,
+            height: '9vh',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            //borderBottom: '1px black solid', Add box shadow when in movement
+            backgroundColor: colors.background,
+            position: 'fixed',
+            width: '100vw',
+            marginTop: '-50px',
             marginLeft: '103px'
         },
         mobile: {
-            color: colors.white,
+            height: '9vh',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            //borderBottom: '1px black solid', Add box shadow when in movement
+            backgroundColor: colors.background,
+            position: 'fixed',
+            width: '100vw',
+            marginTop: '-50px',
             marginLeft: '10px'
+        }
+    },
+    logo: {
+        desktop: {
+            height: '30px',
+            color: colors.white,
+        },
+        mobile: {
+            height: '30px',
+            color: colors.white,
         }
     },
     paths: {

@@ -2,10 +2,9 @@ import React from 'react'
 import style from './company-names.jss'
 import COMPANY_NAMES from '../../../../../constants/company-names'
 
-const  About = ((props) => {
-
+const  CompanyNames = ((props) => {
     return (
-        <div>
+        <div style={style.companyNameList[props.screenSize]}>
             <div 
                 style={props.selectedCompany === COMPANY_NAMES.WALMART
                     ? style.selectedCompany
@@ -28,5 +27,5 @@ const  About = ((props) => {
     )
 })
 
-export default About
+export default CompanyNames
   

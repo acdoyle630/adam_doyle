@@ -2,18 +2,29 @@ import themes from '../../../../../themes/themes'
 import colors from '../../../../../themes/colors'
 
 const style = {
+    companyNameList: {
+        desktop: {
+
+        },
+        mobile: {
+            display: 'flex',
+            flexDirection: 'row',
+        }
+    },
     companyName: {
         ...themes.componentSubHeader,
         marginBottom: '20px',
         marginTop: '20px',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        width: '150px'
    },
    selectedCompany: {
-    ...themes.componentSubHeader,
-    marginBottom: '20px',
-    marginTop: '20px',
-    color: colors.third,
-    cursor: 'pointer'
+        ...themes.componentSubHeader,
+        marginBottom: '20px',
+        marginTop: '20px',
+        color: colors.third,
+        cursor: 'pointer',
+        width: '150px'
    }
 }
 

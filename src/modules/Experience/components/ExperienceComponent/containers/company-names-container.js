@@ -11,6 +11,7 @@ class CompanyNamesContainer extends Component {
         <CompanyNames
             selectCompany={this.props.selectCompany}
             selectedCompany={this.props.selectedCompany}
+            screenSize={this.props.screenSize}
         />
       )
     }
