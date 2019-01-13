@@ -18,6 +18,8 @@ const style = {
             ...themes.componentSubHeader,
             display: 'flex',
             flexDirection: 'row',
+            justifyContent: 'space-between',
+
         },
         mobile: {
             ...themes.componentSubHeader,
@@ -29,7 +31,7 @@ const style = {
     aboutWords: {
         display: 'flex',
         flexDirection: 'column',
-        marginBottom: '50px'
+        marginBottom: '50px',
     },
     aboutText: {
         marginRight: '10px',
@@ -46,7 +48,18 @@ const style = {
         flexDirection: 'row',
     },
     individualSkill:{
-        marginBottom: '10px'
+        desktop: {
+            marginBottom: '10px',
+            color: colors.white,
+        },
+        mobile: {
+            marginBottom: '10px',
+            color: colors.white,
+        }
+    },
+    bullet: {
+        color: colors.blue,
+        marginBottom: '15px'
     },
     skillsColumn: {
         display: 'flex',
@@ -55,7 +68,9 @@ const style = {
     },
     profilePicture:{
         width: '200px',
-        height: '268.57px'
+        height: '268.57px',
+        marginLeft: '50px',
+        marginBottom: '50px',
     }
 }
 
