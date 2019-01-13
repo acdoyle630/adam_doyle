@@ -3,9 +3,7 @@ import colors from '../../../../../themes/colors'
 
 const style = {
     jobs: {
-        marginRight: '50px',
         marginLeft: '20px',
-        border: '1px solid black'
     },
     jobHeader: {
         display: 'flex',
@@ -23,7 +21,12 @@ const style = {
         color: colors.primary
     },
     bullet: {
-        color: colors.secondary,
+        color: colors.white,
+        marginBottom: '10px',
+
+    },
+    bulletItem: {
+        color: colors.white
     },
     bulletContainer: {
         marginTop: '20px',

@@ -5,11 +5,13 @@ const style = {
     companyName: {
         ...themes.componentSubHeader,
         marginBottom: '20px',
+        marginTop: '20px',
         cursor: 'pointer'
    },
    selectedCompany: {
     ...themes.componentSubHeader,
     marginBottom: '20px',
+    marginTop: '20px',
     color: colors.third,
     cursor: 'pointer'
    }

@@ -13,7 +13,8 @@ const  About = ((props) => {
                 onClick={(() => {
                     props.selectCompany(COMPANY_NAMES.WALMART)
                 })}
-            >Walmart Labs</div>
+            >Walmart Labs
+            </div>
             <div 
                 style={props.selectedCompany === COMPANY_NAMES.CODING_WITH_KIDS
                     ? style.selectedCompany
@@ -21,7 +22,8 @@ const  About = ((props) => {
                 onClick={(() => {
                     props.selectCompany(COMPANY_NAMES.CODING_WITH_KIDS)
                 })}
-            >Coding With Kids</div>
+            >Coding With Kids
+            </div>
         </div>
     )
 })

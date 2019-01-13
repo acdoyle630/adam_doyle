@@ -5,11 +5,11 @@ import style from './experience.jss'
 
 const  About = ((props) => {
     return (
-        <div id={'experience'} style={style.experience}>
+        <div id={'experience'} style={style.experience[props.screenSize]}>
             <div style={style.experienceHeader}>
                 Experience
             </div>
-            <div style={style.jobInfo}>
+            <div style={style.jobInfo[props.screenSize]}>
                 <CompanyNamesContainer />
                 <JobContainer />
             </div>

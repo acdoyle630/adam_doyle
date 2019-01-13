@@ -2,14 +2,27 @@ import themes from "../../../../themes/themes";
 
 const style = {
     experience: {
-        ...themes.body
+        desktop: {
+            ...themes.body.desktop,
+        },
+        mobile: {
+            ...themes.body.mobile,
+        }
+        
     },
     experienceHeader: {
         ...themes.componentHeader
     },
     jobInfo: {
-        display: 'flex',
-        flexDirection: 'row',
+        desktop: {
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+        },
+        mobile: {
+            display: 'flex',
+            flexDirection: 'column', 
+        }
     }
 }
 
