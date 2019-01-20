@@ -11,6 +11,9 @@ const NavBar = function(props){
     <div style={style.navBar[props.screenSize]}>
       <div>
       <img
+        onClick={(() => {
+            props.scrollToElement(ROUTES.HOME)
+        })}
         style={style.logo[props.screenSize]}
         src={logo}
         alt='Adam Doyle' 

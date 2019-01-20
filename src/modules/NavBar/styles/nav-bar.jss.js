@@ -3,6 +3,7 @@ import colors from '../../../themes/colors'
 const style = {
     navBar: {
         desktop: {
+            cursor: 'pointer',
             height: '9vh',
             display: 'flex',
             flexDirection: 'row',
@@ -12,10 +13,11 @@ const style = {
             backgroundColor: colors.background,
             position: 'fixed',
             width: '100vw',
-            marginTop: '-50px',
+            marginTop: '-100px',
             //marginLeft: '103px'
         },
         mobile: {
+            cursor: 'pointer',
             height: '9vh',
             display: 'flex',
             flexDirection: 'row',
@@ -25,7 +27,7 @@ const style = {
             backgroundColor: colors.background,
             position: 'fixed',
             width: '100vw',
-            marginTop: '-50px',
+            marginTop: '-100px',
            // marginLeft: '10px'
         }
     },

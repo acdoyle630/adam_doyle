@@ -7,7 +7,6 @@ import Headline from './modules/Headline/components/headline'
 import AboutContainer from './modules/About/containers/about-container'
 import ExperienceContainer from './modules/Experience/containers/experience-container'
 import GetInTouchContainer from './modules/GetInTouch/containers/get-in-touch-container'
-import Contact from './modules/Contact/containers/contact-container'
 import './App.css'
 
 class App extends Component {

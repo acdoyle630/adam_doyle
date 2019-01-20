@@ -5,11 +5,11 @@ const style = {
     headline: {
         desktop: {
             ...themes.body.desktop,
-            marginTop: '50px'
+            marginTop: '100px'
         },
         mobile: {
             ...themes.body.mobile,
-            marginTop: '50px'
+            marginTop: '100px'
         }
     },
     intro: {
@@ -54,8 +54,7 @@ const style = {
         fontFamily: 'Helvetica',
         lineHeight: 'normal',
         fontSize: '15px',
-
-    }
+    },
 }
 
 export default style

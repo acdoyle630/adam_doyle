@@ -3,9 +3,6 @@ import styles from './get-in-touch.jss.js'
 import text from './text'
 
 const  GetInTouch = ((props) => {
-    console.log(text)
-    console.log(props)
-
     return (
     <div id={'contact'} style={styles.getInTouch[props.screenSize]}>
         <div style={styles.header}>

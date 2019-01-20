@@ -6,6 +6,7 @@ import {
   const initialState = false;
   
   const aboutReducer = (state = initialState, action) =>{
+      console.log(action)
     switch(action.type){
       case OPEN_ABOUT:
         return true

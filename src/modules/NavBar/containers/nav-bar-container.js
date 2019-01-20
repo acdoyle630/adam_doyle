@@ -5,6 +5,7 @@ import { openAbout, closeAbout } from '../../../actions/about-action'
 import NavBarComponent from '../components/nav-bar-component'
 import resume from '../../../resources/Adam-Doyle-Resume.pdf'
 import style from '../styles/nav-bar.jss.js'
+import ROUTES from '../../../constants/routes'
 
 class NavBarContainer extends Component {
 
@@ -18,7 +19,7 @@ class NavBarContainer extends Component {
   
   render() {
     return (
-        <div>
+        <div id={ROUTES.HOME}>
         <NavBarComponent
             viewResume={this.viewResume}
             screenSize={this.props.screenSize}
