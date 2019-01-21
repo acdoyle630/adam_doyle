@@ -15,10 +15,11 @@ const style = {
     intro: {
         color: colors.grey,
         fontFamily: 'Helvetica',
-        lineHeight: 'normal',
+        lineHeight: '30px',
         fontSize: '20px',
         fontWeight: 'bold',
-        marginBottom: '15px'
+        marginBottom: '15px',
+
     },
     myNameIs: {
         color: colors.blue,
@@ -34,13 +35,13 @@ const style = {
         marginBottom: '15 px',
         fontWeight: 'bold',
         fontFamily: 'Helvetica',
-        lineHeight: 'normal',
+        lineHeight: '30px',
     },
     details: {
         color: colors.grey,
         fontWeight: 'bold',
         fontFamily: 'Helvetica',
-        lineHeight: 'normal',
+        lineHeight: '30px',
         fontSize: '20px',
         marginBottom: '15px',
     },
@@ -52,8 +53,9 @@ const style = {
         justifyContent: 'center',
         fontWeight: 'bold',
         fontFamily: 'Helvetica',
-        lineHeight: 'normal',
+        lineHeight: '30px',
         fontSize: '15px',
+        cursor: 'pointer',
     },
 }
 

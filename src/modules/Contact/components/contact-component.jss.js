@@ -10,6 +10,14 @@ const style = {
     },
     modalContent: {
         
+    },
+    emailButton: {
+        true: {
+            color: 'red'
+        },
+        false: {
+            color: 'green'
+        }
     }
 }
 

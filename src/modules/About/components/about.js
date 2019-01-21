@@ -100,7 +100,7 @@ const  About = ((props) => {
     }
 
     return (
-        <div id={'about'} style={style.about[props.screenSize]}>
+        <div style={style.about[props.screenSize]}>
             <div style={style.aboutHeader}>
                 {text.aboutHeader}
             </div>
@@ -117,7 +117,7 @@ const  About = ((props) => {
                     </div>
                 </div>
                 <img
-                    style={style.profilePicture}
+                    style={style.profilePicture[props.screenSize]}
                     src={profilePicture}
                     alt='Adam Doyle' 
                 />

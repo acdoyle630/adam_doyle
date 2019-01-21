@@ -31,21 +31,20 @@ class Contact extends Component {
     }
 
     render(){
-        console.log(this.props.emailStatus)
+        const emailInFlight = this.props.emailStatus.emailInFlight
+        const emailReceived = this.props.emailStatus.emailReceived
+        const emailFailed = this.props.emailStatus.emailFailed
         return (
             <Modal open={this.props.open} style={style.modal}>
                 <div>
                     <div onClick={(() => {
                         this.props.closeContactModal()
                     })}>CLOSE</div>
-                    <div>
-                        MODAL
-                    </div>
                     <input placeholder={'name'} onChange={this.handleNameChange}></input>
                     <input placeholder={'message'} onChange={this.handleMessageChange}></input>
                     <input placeholder={'email'} onChange={this.handleEmailChange}></input>
-                    <button onClick={(() => {
-                        this.props.sendEmail(this.state)
+                    <button style={style.emailButton[emailInFlight]} onClick={(() => {
+                        !emailInFlight && this.props.sendEmail(this.state)
                     })}>CLICK TO SEND</button>
                 </div>
             </Modal>

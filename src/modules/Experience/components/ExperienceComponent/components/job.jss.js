@@ -20,10 +20,13 @@ const style = {
     dates: {
         color: colors.primary
     },
+    titleAndDate: {
+        color: colors.grey,
+        marginBottom: '10px',
+    },
     bullet: {
         color: colors.white,
         marginBottom: '10px',
-
     },
     bulletItem: {
         color: colors.white

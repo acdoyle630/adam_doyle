@@ -5,9 +5,9 @@ class AboutContainer extends Component {
     
     render() {
       return (
-          <About
-              screenSize={this.props.screenSize}
-          />
+          <div id={'about'}>
+            <About screenSize={this.props.screenSize} />
+          </div>
       )
     }
   }

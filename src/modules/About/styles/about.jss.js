@@ -67,10 +67,17 @@ const style = {
         marginRight: '20px',
     },
     profilePicture:{
-        width: '200px',
-        height: '268.57px',
-        marginLeft: '50px',
-        marginBottom: '50px',
+        desktop: {
+            width: '200px',
+            height: '268.57px',
+            marginLeft: '50px',
+            marginBottom: '50px',
+        },
+        mobile: {
+            width: '200px',
+            height: '268.57px',
+            marginBottom: '50px',
+        }
     }
 }
 

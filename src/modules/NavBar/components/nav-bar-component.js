@@ -5,8 +5,7 @@ import style from '../styles/nav-bar.jss'
 import logo from '../../../images/logo.svg'
 import ROUTES from '../../../constants/routes'
 
-const NavBar = function(props){
-  
+const NavBar = function(props){  
   return (
     <div style={style.navBar[props.screenSize]}>
       <div>
