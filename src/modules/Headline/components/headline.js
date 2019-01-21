@@ -5,6 +5,7 @@ import style from '../styles/headline.jss'
 import ContactContainer from '../../Contact/containers/contact-container'
 import { openContactModal } from '../../../actions/contact-modal'
 import text from '../text/text.js'
+import ROUTES from '../../../constants/routes'
 
 class Headline extends Component {
 
@@ -24,7 +25,8 @@ class Headline extends Component {
                 {text.details}
             </div>
             <div onClick={(() => {
-                this.props.openContactModal()
+                //this.props.openContactModal() TODO unflag when contact form is ready
+                this.props.scrollToMyRef(ROUTES.CONTACT)
             })} style={style.contact}>
                 {text.contact}
             </div>

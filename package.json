@@ -2,7 +2,7 @@
   "name": "adam_doyle",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://acdoyle630.github.io/adam_doyle",
+  "homepage": "https://acdoyle630.github.io/adam_doyle/",
   "devDependencies": {
     "gh-pages": "2.0.1",
     "react-scripts": "2.1.1"
@@ -20,6 +20,7 @@
     "react": "^16.6.0",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "react-scrollbar": "^0.5.4",
     "react-scrollbar-js": "^1.0.1",

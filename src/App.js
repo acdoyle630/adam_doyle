@@ -37,7 +37,10 @@ class App extends Component {
     return (
       <div>
         <NavBarContainer scrollToMyRef={this.scrollToMyRef} />
-        <Headline screenSize={this.props.screenSize}/>
+        <Headline 
+            screenSize={this.props.screenSize}
+            scrollToMyRef={this.scrollToMyRef}
+        />
         <AboutContainer />
         <ExperienceContainer />
         <GetInTouchContainer />

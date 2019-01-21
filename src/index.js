@@ -20,7 +20,7 @@ const store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
                 <Route exact path="/" component={App}/>
             </div>
