@@ -35,7 +35,7 @@ const style = {
         desktop: {
             height: '30px',
             color: colors.white,
-            marginLeft: '103px'
+            marginLeft: '203px'
         },
         mobile: {
             height: '30px',

@@ -70,7 +70,7 @@ const style = {
         desktop: {
             width: '200px',
             height: '268.57px',
-            marginLeft: '50px',
+            marginLeft: '150px',
             marginBottom: '50px',
         },
         mobile: {

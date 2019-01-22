@@ -7,8 +7,8 @@ const fontSize = {
 const themes = {
     body: {
         desktop: {
-            marginLeft: '103px',
-            marginRight: '103px',
+            marginLeft: '203px',
+            marginRight: '203px',
             marginBottom: '150px',
             backgroundColor: colors.background
         },

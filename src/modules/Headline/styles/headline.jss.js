@@ -43,7 +43,7 @@ const style = {
         fontFamily: 'Helvetica',
         lineHeight: '30px',
         fontSize: '20px',
-        marginBottom: '15px',
+        marginBottom: '50px',
     },
     contact: {
         backgroundColor: colors.blue,

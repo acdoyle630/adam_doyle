@@ -18,7 +18,8 @@ const style = {
     },
     header: {
         ...themes.componentHeader,
-        textAlign: 'center'
+        textAlign: 'center',
+        marginBottom: '30px',
     },
     subHeader: {
         color: colors.grey,
@@ -26,7 +27,7 @@ const style = {
         fontFamily: 'Helvetica',
         lineHeight: 'normal',
         fontSize: '20px',
-        marginBottom: '15px',
+        marginBottom: '30px',
         textAlign: 'center'
     },
     contact: {

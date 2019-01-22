@@ -3,7 +3,7 @@ const JOB_INFO = {
         title: 'Software Engineer',
         company: 'Walmart Labs',
         dates: 'Dec 2017 - Present',
-        bullets: ['Software Engineer working on mobile applications using React.js while integrating with teams throughout a micro-service ecosystem', 'Contributor to a cutting-edge team in supply chain technologies', 'Working in an agile environment with a focus on UX-driven development and CI/CD practices', 'Responsible for writing and reviewing JavaScript code, QA, planning and breaking down work', 'Frequently meet with, and provide support to business partners while collecting feedback from end-users', 'Interview and effectivly participate in hiring and onboarding of employees']
+        bullets: ['Software Engineer working on mobile applications using React.js while integrating with teams throughout a micro-service ecosystem', 'Contributor to a cutting-edge team in supply chain technologies', 'Working in an agile environment with a focus on UX-driven development and CI/CD practices', 'Responsible for writing and reviewing JavaScript code, QA, planning and breaking down work', 'Frequently meet with, and provide support to business partners while collecting feedback from end-users', 'Interview and effectively participate in hiring and onboarding of employees']
     },
     'Coding With Kids': {
         title: 'Coding Instructor',

@@ -12,9 +12,6 @@ const  GetInTouch = ((props) => {
             {text.SUB_HEADER}
         </div>
         <div style={styles.contact}>
-            {text.PHONE}
-        </div>
-        <div style={styles.contact}>
             {text.EMAIL}
         </div>
     </div>
