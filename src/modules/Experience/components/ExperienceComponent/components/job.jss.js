@@ -22,6 +22,8 @@ const style = {
     },
     titleAndDate: {
         color: colors.grey,
+        fontSize: '24px',
+        fontWeight: 'bold',
         marginBottom: '10px',
     },
     bullet: {
@@ -33,6 +35,7 @@ const style = {
     },
     bulletContainer: {
         marginTop: '20px',
+        width: '55vw'
     }
 }
 

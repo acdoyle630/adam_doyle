@@ -11,8 +11,8 @@ import './App.css'
 
 class App extends Component {
 
-  componentWillMount(){
-    this.resize()
+  componentDidMount = () =>{
+    this.resize() 
     window.addEventListener('resize', this.resize)
   }
 
@@ -21,11 +21,8 @@ class App extends Component {
   }
 
   scrollToMyRef = (elementId) => {
-      console.log(elementId)
       if(elementId){
-
       const el = document.getElementById(elementId)
-      console.log(el)
       el.scrollIntoView({
           behavior: 'smooth',
           //block: 'start' + 10

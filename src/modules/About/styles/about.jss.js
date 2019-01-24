@@ -68,14 +68,12 @@ const style = {
     },
     profilePicture:{
         desktop: {
-            width: '200px',
-            height: '268.57px',
+            width: '25vw',
             marginLeft: '150px',
             marginBottom: '50px',
         },
         mobile: {
             width: '200px',
-            height: '268.57px',
             marginBottom: '50px',
         }
     }

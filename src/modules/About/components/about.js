@@ -116,11 +116,13 @@ const  About = ((props) => {
                         {text.aboutTextP3}
                     </div>
                 </div>
-                <img
-                    style={style.profilePicture[props.screenSize]}
-                    src={profilePicture}
-                    alt='Adam Doyle' 
-                />
+                <div>
+                    <img
+                        style={style.profilePicture[props.screenSize]}
+                        src={profilePicture}
+                        alt='Adam Doyle' 
+                    />
+                </div>
             </div>
             <div>
                 <div style={style.skillsHeader}>

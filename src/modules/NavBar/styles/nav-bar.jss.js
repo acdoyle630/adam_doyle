@@ -4,7 +4,7 @@ const style = {
     navBar: {
         desktop: {
             cursor: 'pointer',
-            height: '9vh',
+            height: '11vh',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
@@ -18,7 +18,7 @@ const style = {
         },
         mobile: {
             cursor: 'pointer',
-            height: '9vh',
+            height: '11vh',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
@@ -33,12 +33,12 @@ const style = {
     },
     logo: {
         desktop: {
-            height: '30px',
+            height: '40px',
             color: colors.white,
             marginLeft: '203px'
         },
         mobile: {
-            height: '30px',
+            height: '40px',
             color: colors.white,
         }
     },
