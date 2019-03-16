@@ -63,4 +63,13 @@ const mapStateToProps = (state) =>{
     mapStateToProps,
     mapDispatchToProps
     )(App);
+
+
+    // <Headline/>
+    // <div>
+    //     <NavBar/> Locked to top of div
+    //     <AboutContainer />
+    //     <ExperienceContainer />
+    //     <GetInTouchContainer />
+    // </div>
   
