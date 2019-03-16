@@ -25,8 +25,7 @@ class Headline extends Component {
                 {text.details}
             </div>
             <div onClick={(() => {
-                //this.props.openContactModal() TODO unflag when contact form is ready
-                this.props.scrollToMyRef(ROUTES.CONTACT)
+                this.props.openContactModal() 
             })} style={style.contact}>
                 {text.contact}
             </div>
