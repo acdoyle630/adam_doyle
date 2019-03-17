@@ -38,6 +38,10 @@ const style = {
             marginTop: '20px',
             width: '55vw'
         },
+        tablet: {
+            marginTop: '20px',
+            width: '55vw'
+        },
         mobile: {
             marginTop: '20px',
         }

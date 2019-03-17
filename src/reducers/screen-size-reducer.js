@@ -5,11 +5,11 @@ import {
   const initialState = 'desktop';
 
   const selectScreenSize = (screenSize) => {
-      if(screenSize < 650){
+      if(screenSize < 600){
           return 'mobile'
-    //   }
-    //   else if(screenSize < 700 && screenSize > 480){
-    //       return 'tablet'
+      }
+      else if(screenSize >= 600 && screenSize < 1000){
+          return 'tablet'
       } else {
           return 'desktop'
       }

@@ -3,17 +3,20 @@ import colors from '../../../themes/colors'
 const style = {
     modal: {
         mobile: {
-        //backgroundColor: colors.white,
-        height: '75vh',
-        width: '75vw',
-        margin: 'auto'
+            height: '75vh',
+            width: '75vw',
+            margin: 'auto'
         },
         desktop: {
-        //  `backgroundColor: colors.white,
-        height: '75vh',
-        width: '600px',
-        margin: 'auto'
-        }
+            height: '75vh',
+            width: '600px',
+            margin: 'auto'
+        },
+        tablet: {
+            height: '75vh',
+            width: '600px',
+            margin: 'auto'
+        },
     },
     contactContent: {
         backgroundColor: colors.grey,

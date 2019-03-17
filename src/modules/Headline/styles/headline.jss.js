@@ -7,6 +7,10 @@ const style = {
             ...themes.body.desktop,
             marginTop: '100px'
         },
+        tablet: {
+            ...themes.body.mobile,
+            marginTop: '100px'
+        },
         mobile: {
             ...themes.body.mobile,
             marginTop: '100px'

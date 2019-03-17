@@ -6,6 +6,9 @@ const style = {
         desktop: {
 
         },
+        tablet: {
+
+        },
         mobile: {
             display: 'flex',
             flexDirection: 'row',

@@ -6,7 +6,7 @@ import profilePicture from '../../../images/Adam_Doyle_img.jpg'
 const  About = ((props) => {
 
     function mySkills(screenSize){
-        if(screenSize === 'desktop'){
+        if(screenSize === 'desktop' || screenSize === 'tablet'){
             return (
                 <div style={style.skills}>
                     <div style={style.skillsColumn}>

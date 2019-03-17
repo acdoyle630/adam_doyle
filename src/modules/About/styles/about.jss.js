@@ -6,6 +6,9 @@ const style = {
         desktop: {
             ...themes.body.desktop
         },
+        tablet: {
+            ...themes.body.mobile
+        },
         mobile: {
             ...themes.body.mobile
         }
@@ -19,7 +22,12 @@ const style = {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
-
+        },
+        tablet: {
+            ...themes.componentSubHeader,
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
         },
         mobile: {
             ...themes.componentSubHeader,
@@ -52,6 +60,10 @@ const style = {
             marginBottom: '10px',
             color: colors.white,
         },
+        tablet: {
+            marginBottom: '10px',
+            color: colors.white,
+        },
         mobile: {
             marginBottom: '10px',
             color: colors.white,
@@ -69,6 +81,11 @@ const style = {
     profilePicture:{
         desktop: {
             width: '25vw',
+            marginLeft: '150px',
+            marginBottom: '50px',
+        },
+        tablet: {
+            width: '250px',
             marginLeft: '150px',
             marginBottom: '50px',
         },

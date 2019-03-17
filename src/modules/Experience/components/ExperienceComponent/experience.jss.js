@@ -5,6 +5,9 @@ const style = {
         desktop: {
             ...themes.body.desktop,
         },
+        tablet: {
+            ...themes.body.mobile,
+        },
         mobile: {
             ...themes.body.mobile,
         }
@@ -15,6 +18,11 @@ const style = {
     },
     jobInfo: {
         desktop: {
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+        },
+        tablet: {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',

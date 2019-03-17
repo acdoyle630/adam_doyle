@@ -16,6 +16,20 @@ const style = {
             marginTop: '-100px',
             //marginLeft: '103px'
         },
+        tablet: {
+            cursor: 'pointer',
+            height: '11vh',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            //borderBottom: '1px black solid', Add box shadow when in movement
+            backgroundColor: colors.background,
+            position: 'fixed',
+            width: '100vw',
+            marginTop: '-100px',
+            //marginLeft: '103px'
+        },
         mobile: {
             cursor: 'pointer',
             height: '11vh',
@@ -36,6 +50,10 @@ const style = {
             height: '40px',
             color: colors.white,
             marginLeft: '203px'
+        },
+        tablet: {
+            height: '40px',
+            color: colors.white,
         },
         mobile: {
             height: '40px',

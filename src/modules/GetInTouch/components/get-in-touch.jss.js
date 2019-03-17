@@ -9,6 +9,12 @@ const style = {
             justifyContent: 'center',
             flexDirection: 'column',
         },
+        tablet: {
+            ...themes.body.mobile,
+            display: 'flex',
+            justifyContent: 'center',
+            flexDirection: 'column',
+        },
         mobile: {
             ...themes.body.mobile,
             display: 'flex',

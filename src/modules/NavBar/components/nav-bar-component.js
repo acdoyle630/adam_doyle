@@ -18,7 +18,7 @@ const NavBar = function(props){
         alt='Adam Doyle' 
       />
       </div>
-      {props.screenSize === 'desktop'
+      {props.screenSize === 'desktop' || props.screenSize === 'tablet'
       ?
       <div style={style.paths}>
         <div onClick={(() => {
