@@ -14,7 +14,7 @@ const  Job = ((props) => {
     })
     return (
         <div style={style.jobs}>
-            <div style={style.bulletContainer}>
+            <div style={style.bulletContainer[props.screenSize]}>
                 <div style={style.titleAndDate}>{`${JOB_INFO[props.selectedCompany].title} ${JOB_INFO[props.selectedCompany].dates}`}</div>
                 {populateBullets()}
             </div>

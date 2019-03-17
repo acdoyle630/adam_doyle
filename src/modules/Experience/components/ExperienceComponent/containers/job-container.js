@@ -6,7 +6,10 @@ class JobContainer extends Component {
     
     render() {
       return (
-        <Job selectedCompany={this.props.selectedCompany}/>
+        <Job 
+            selectedCompany={this.props.selectedCompany}
+            screenSize={this.props.screenSize}    
+        />
       )
     }
   }
@@ -14,6 +17,7 @@ class JobContainer extends Component {
   const mapStateToProps = (state) =>{
     return {
       selectedCompany: state.selectedCompany,
+      screenSize: state.screenSize,
     }
   }
 

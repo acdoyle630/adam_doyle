@@ -42,12 +42,16 @@ class Contact extends Component {
 
     closeErrorModal = () => {
         this.setState({
-            error: false
+            error: false,
+            name: '',
+            message: '',
+            email: '',
+            subject: '',
+            errorMessage: '',
         })
     }
 
     checkMail = async () => {
-
         if(this.state.email && this.state.message){
             await this.props.sendEmail(this.state)
             window.setTimeout(() => {
@@ -66,8 +70,6 @@ class Contact extends Component {
             this.setState({
                 error:true,
                 errorMessage: errorMessage,
-                
-                
             })
         }
     }
@@ -83,7 +85,7 @@ class Contact extends Component {
                         <div style={style.headerText}>
                             Get in Touch
                         </div>
-                        <Cancel onClick={(() => {
+                        <Cancel style={style.cancel} onClick={(() => {
                             this.props.closeContactModal()
                         })} />
                     </div>
@@ -98,7 +100,6 @@ class Contact extends Component {
                         open={this.state.error}
                         errorMessage={this.state.errorMessage}
                         closeErrorModal={this.closeErrorModal} 
-                        screenSize={this.props.screenSize}   
                     />
                 </div>
             </Modal>

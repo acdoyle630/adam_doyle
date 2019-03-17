@@ -3,20 +3,21 @@ import colors from '../../../themes/colors'
 const style = {
     modal: {
         mobile: {
-        backgroundColor: colors.white,
+        //backgroundColor: colors.white,
         height: '75vh',
         width: '75vw',
         margin: 'auto'
         },
         desktop: {
-        backgroundColor: colors.white,
+        //  `backgroundColor: colors.white,
         height: '75vh',
         width: '600px',
         margin: 'auto'
         }
     },
     contactContent: {
-        margin: '3vh',
+        backgroundColor: colors.grey,
+        padding: '3vh',
         height: '69vh',
         display: 'flex',
         flexDirection: 'column',
@@ -26,6 +27,9 @@ const style = {
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginBottom: '4vh',
+    },
+    cancel: {
+        marginTop: '5px'
     },
     headerText: {
         color: colors.blue,

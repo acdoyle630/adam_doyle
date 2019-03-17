@@ -34,8 +34,13 @@ const style = {
         color: colors.white
     },
     bulletContainer: {
-        marginTop: '20px',
-        width: '55vw'
+        desktop: {
+            marginTop: '20px',
+            width: '55vw'
+        },
+        mobile: {
+            marginTop: '20px',
+        }
     }
 }
 
