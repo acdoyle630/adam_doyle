@@ -25,6 +25,11 @@ const  About = ((props) => {
                                 React & Redux
                             </span>
                         </li>
+                        <li style={style.bullet}> 
+                            <span style={style.individualSkill[screenSize]}>
+                                Jest/Mocha
+                            </span>
+                        </li>
                     </div>
                     <div style={style.skillsColumn}>
                         <li style={style.bullet}> 
@@ -57,6 +62,11 @@ const  About = ((props) => {
                         <li style={style.bullet}> 
                             <span style={style.individualSkill[screenSize]}>
                                 Test-Driven Development
+                            </span>
+                        </li>
+                        <li style={style.bullet}> 
+                            <span style={style.individualSkill[screenSize]}>
+                                CI/CD
                             </span>
                         </li>
                     </div>

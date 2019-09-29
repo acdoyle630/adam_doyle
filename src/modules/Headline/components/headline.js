@@ -5,7 +5,6 @@ import style from '../styles/headline.jss'
 import ContactContainer from '../../Contact/containers/contact-container'
 import { openContactModal } from '../../../actions/contact-modal'
 import text from '../text/text.js'
-import ROUTES from '../../../constants/routes'
 
 class Headline extends Component {
 

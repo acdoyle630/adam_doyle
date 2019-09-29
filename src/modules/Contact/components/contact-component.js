@@ -76,8 +76,6 @@ class Contact extends Component {
 
     render(){
         const emailInFlight = this.props.emailStatus.emailInFlight
-        const emailReceived = this.props.emailStatus.emailReceived
-        const emailFailed = this.props.emailStatus.emailFailed
         return (
             <Modal open={this.props.open} style={style.modal[this.props.screenSize]}>
                 <div style={style.contactContent}>
@@ -95,7 +93,7 @@ class Contact extends Component {
                     <textarea cols={40} placeholder={'message'} style={style.messageInput} onChange={this.handleMessageChange}></textarea>
                     <div style={style.emailButton[emailInFlight]} onClick={(() => {
                         !emailInFlight && this.checkMail() 
-                    })}>SUBMIT</div>
+                    })}>SEND</div>
                     <ErrorModal 
                         open={this.state.error}
                         errorMessage={this.state.errorMessage}
