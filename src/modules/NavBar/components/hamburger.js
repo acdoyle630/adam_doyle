@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import { Menu as MenuIcon } from '@material-ui/icons'
-import Resume from '../../../resources/Adam-Doyle-Resume.pdf'
+import Resume from '../../../resources/Adam_Doyle_resume.pdf'
 import style from '../styles/nav-bar.jss.js'
 import ROUTES from '../../../constants/routes'
 

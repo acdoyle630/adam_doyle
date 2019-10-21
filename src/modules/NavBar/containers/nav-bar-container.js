@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { openAbout, closeAbout } from '../../../actions/about-action'
 import NavBarComponent from '../components/nav-bar-component'
-import resume from '../../../resources/Adam-Doyle-Resume.pdf'
+import resume from '../../../resources/Adam_Doyle_resume.pdf'
 import style from '../styles/nav-bar.jss.js'
 import ROUTES from '../../../constants/routes'
 
