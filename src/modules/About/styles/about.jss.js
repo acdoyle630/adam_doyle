@@ -6,6 +6,7 @@ const style = {
         desktop: {
             ...themes.body.desktop,
             marginTop: '75px',
+            fontSize: '20px'
         },
         tablet: {
             ...themes.body.mobile

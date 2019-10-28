@@ -4,7 +4,7 @@ import colors from '../../../../../themes/colors'
 const style = {
     companyNameList: {
         desktop: {
-
+            fontSize: '20px',
         },
         tablet: {
 

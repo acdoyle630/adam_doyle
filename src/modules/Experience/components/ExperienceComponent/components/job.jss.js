@@ -1,7 +1,7 @@
 import themes from '../../../../../themes/themes'
 import colors from '../../../../../themes/colors'
 
-const style = {
+const style = (screenSize) => ({
     jobs: {
         marginLeft: '20px',
     },
@@ -29,9 +29,10 @@ const style = {
     bullet: {
         color: colors.white,
         marginBottom: '10px',
+        fontSize: screenSize === 'desktop' ? '20px': null
     },
     bulletItem: {
-        color: colors.white
+        color: colors.white,
     },
     bulletContainer: {
         desktop: {
@@ -46,6 +47,6 @@ const style = {
             marginTop: '20px',
         }
     }
-}
+})
 
 export default style
