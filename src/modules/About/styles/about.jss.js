@@ -4,7 +4,8 @@ import colors from '../../../themes/colors'
 const style = {
     about: {
         desktop: {
-            ...themes.body.desktop
+            ...themes.body.desktop,
+            marginTop: '75px',
         },
         tablet: {
             ...themes.body.mobile
