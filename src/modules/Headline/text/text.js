@@ -5,6 +5,6 @@ const text = {
     watOne: 'I\'m a ',
     watTwo: ' specializing in developing high-quality mobile and web applications.',
     contact: 'Get in Touch',
-    details: 'Currently working at Walmart Labs as a software engineer.'
+    details: 'Currently building software solutions at Walmart Labs.'
 }
 export default text
