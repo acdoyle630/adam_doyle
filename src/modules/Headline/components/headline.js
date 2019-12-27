@@ -5,12 +5,18 @@ import style from '../styles/headline.jss'
 import ContactContainer from '../../Contact/containers/contact-container'
 import { openContactModal } from '../../../actions/contact-modal'
 import text from '../text/text.js'
+import ROUTES from '../../../constants/routes'
+import Title from './title'
 
 class Headline extends Component {
     constructor(props){
         super(props)
         this.state = {
-           titles: ['software engineer', 'software engineer', 'problem solver', 'problem solver', 'adrenaline junkie', 'adrenaline junkie'],
+           titles: [
+               'software engineer',
+               'problem solver',
+               'adrenaline junkie',
+            ],
            currentTitle: 0
         }
     }
@@ -31,22 +37,7 @@ class Headline extends Component {
         this.setState({
             currentTitle: newIndex
         })
-        this.startChangingTitles()
-    }
-
-    showTitle = () => {
-        const strikeThroughStyle = {
-            textDecoration: 'line-through',
-            color: 'red'
-        }
-        const style = this.state.currentTitle % 2 === 1
-            ? strikeThroughStyle
-            : null
-        return (
-            <span style={style}>
-                {this.state.titles[this.state.currentTitle]}
-            </span>
-        )
+        //this.startChangingTitles()
     }
 
     render(){
@@ -58,23 +49,24 @@ class Headline extends Component {
             <div style={style(this.props.screenSize).myNameIs}>
                 {text.myNameIs}
             </div>
-            {<div style={style(this.props.screenSize).wat}>
-                {text.wat}
-            </div>}
             {/* {<div style={style(this.props.screenSize).wat}>
+                {text.wat}
+            </div>} */}
+            {<div style={style(this.props.screenSize).wat}>
                 <span>
                     {text.watOne}
                 </span>
-                {this.showTitle()}
+                <Title titles={this.state.titles} />
                 <span>
                     {text.watTwo}
                 </span>
-            </div>} */}
+            </div>}
             <div style={style(this.props.screenSize).details}>
                 {text.details}
             </div>
             <div onClick={(() => {
-                this.props.openContactModal() 
+                this.props.scrollToMyRef(ROUTES.CONTACT)
+                // this.props.openContactModal() 
             })} style={style(this.props.screenSize).contact}>
                 {text.contact}
             </div>

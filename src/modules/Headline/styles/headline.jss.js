@@ -62,6 +62,9 @@ const style = (screenSize) => ({
         fontSize: '15px',
         cursor: 'pointer',
     },
+    title: {
+        color: colors.blue
+    }
 })
 
 export default style

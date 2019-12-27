@@ -24,6 +24,7 @@
     "react-scripts": "2.1.1",
     "react-scrollbar": "^0.5.4",
     "react-scrollbar-js": "^1.0.1",
+    "react-typing-animation": "^1.6.2",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
