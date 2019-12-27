@@ -30,8 +30,9 @@ class Title extends Component {
                             : this.state.titleIndex +1
                         this.setState({ titleIndex: newIndex})
                     })}
+                    onStartedTyping={window.addEventListener('resize', <Typing.Reset count={1} delay={5} />)}
                 >
-                    <Typing.Speed ms={5} />
+                    <Typing.Speed ms={50} />
                     <div id={'title'} style={style().title}>
                         {this.props.titles[this.state.titleIndex]}
                     </div>
