@@ -16,6 +16,8 @@ class Headline extends Component {
                'software engineer',
                'problem solver',
                'adrenaline junkie',
+               'risk taker',
+               'lifelong learner',
             ],
            currentTitle: 0
         }

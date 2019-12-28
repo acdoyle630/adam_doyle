@@ -7,6 +7,7 @@ class Title extends Component {
         super(props)
         this.state = {
            titleIndex: 0,
+           override: false,
            
         }
     }
@@ -15,7 +16,13 @@ class Title extends Component {
         window.addEventListener('resize', this.handleResize)
     }
 
-    handleResize = () => {
+    handleResize = async () => {
+        await this.setState({
+            override: true
+        })
+        await this.setState({
+            override: false
+        })
         
     }
 
@@ -42,7 +49,7 @@ class Title extends Component {
                 </Typing>
             </React.Fragment>
            )
-        return content
+        return this.state.override ? <div></div> : content
     }
 }
 
