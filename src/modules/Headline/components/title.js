@@ -26,6 +26,14 @@ class Title extends Component {
         
     }
 
+    isVowel = (letter) => (
+        letter.toLowerCase() === 'a' ||
+        letter.toLowerCase() === 'e' ||
+        letter.toLowerCase() === 'i' ||
+        letter.toLowerCase() === 'o' ||
+        letter.toLowerCase() === 'u'
+    )
+
     render(){
         let content = (
             <React.Fragment>
@@ -49,7 +57,18 @@ class Title extends Component {
                 </Typing>
             </React.Fragment>
            )
-        return this.state.override ? <div></div> : content
+
+        let text = this.isVowel(this.props.titles[this.state.titleIndex][0])
+            ? "I'm an "
+            : "I'm a "
+        return (
+            <React.Fragment>
+            <span> 
+                {text}
+            </span>
+            {this.state.override ? <div></div> : content}
+            </React.Fragment>
+        )
     }
 }
 

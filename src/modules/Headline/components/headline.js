@@ -55,9 +55,6 @@ class Headline extends Component {
                 {text.wat}
             </div>} */}
             {<div style={style(this.props.screenSize).wat}>
-                <span>
-                    {text.watOne}
-                </span>
                 <Title titles={this.state.titles} />
                 <span>
                     {text.watTwo}
