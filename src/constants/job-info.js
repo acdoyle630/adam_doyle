@@ -7,8 +7,9 @@ const JOB_INFO = {
       "Software Engineer working on web applications using React.js",
       "Contributor and maintainer to greenfield products aimed at modernizing the insurance industry",
       "Contributor and maintainer to multiple custom inhouse UI Libraries promoting UI/UX consistency across platform and company",
-      "Responsible for writing and reviewing JavaScript code using React.js",
+      "Responsible for writing, reviewing and testing code",
       "Create reusable components leveraging custom hooks and providers",
+      "Mentor new developers as part of a mentorship pilot program",
     ],
   },
   "Walmart Labs": {
