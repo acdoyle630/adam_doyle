@@ -1,8 +1,16 @@
 const JOB_INFO = {
+  Hearth: {
+    title: "Full-stack Software Engineer",
+    company: 'Hearth',
+    dates: 'Nov 2021 - Present',
+    bullets: [
+      "TCOB"
+    ]
+  },
   Vertafore: {
     title: "Software Engineer",
     company: "Vertafore",
-    dates: "Feb 2020 - Present",
+    dates: "Feb 2020 - Nov 2021",
     bullets: [
       "Software Engineer working on web applications using React.js",
       "Contributor and maintainer to greenfield products aimed at modernizing the insurance industry",
@@ -25,17 +33,17 @@ const JOB_INFO = {
       "Interview and effectively participate in hiring and onboarding of employees",
     ],
   },
-  "Coding With Kids": {
-    title: "Coding Instructor",
-    company: "Coding With Kids",
-    dates: "July 2017 - December 2017",
-    bullets: [
-      "Taught programming classes to students ranging from grades K - 12",
-      "Co-designed lessions based on class level and student age",
-      "Provided classroom feedback to executive leadership in order to analyze and improve syllabus",
-      "Responded to questions and concerns from parents and school administration",
-    ],
-  },
+  // "Coding With Kids": {
+  //   title: "Coding Instructor",
+  //   company: "Coding With Kids",
+  //   dates: "July 2017 - December 2017",
+  //   bullets: [
+  //     "Taught programming classes to students ranging from grades K - 12",
+  //     "Co-designed lessions based on class level and student age",
+  //     "Provided classroom feedback to executive leadership in order to analyze and improve syllabus",
+  //     "Responded to questions and concerns from parents and school administration",
+  //   ],
+  // },
 };
 
 export default JOB_INFO;

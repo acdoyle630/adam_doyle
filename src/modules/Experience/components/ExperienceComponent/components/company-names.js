@@ -5,6 +5,18 @@ import COMPANY_NAMES from "../../../../../constants/company-names";
 const CompanyNames = (props) => {
   return (
     <div style={style.companyNameList[props.screenSize]}>
+       <div
+        style={
+          props.selectedCompany === COMPANY_NAMES.HEARTH
+            ? style.selectedCompany
+            : style.companyName
+        }
+        onClick={() => {
+          props.selectCompany(COMPANY_NAMES.HEARTH);
+        }}
+      >
+        Hearth
+      </div>
       <div
         style={
           props.selectedCompany === COMPANY_NAMES.VERTAFORE
@@ -29,7 +41,7 @@ const CompanyNames = (props) => {
       >
         Walmart Labs
       </div>
-      <div
+      {/* <div
         style={
           props.selectedCompany === COMPANY_NAMES.CODING_WITH_KIDS
             ? style.selectedCompany
@@ -40,7 +52,7 @@ const CompanyNames = (props) => {
         }}
       >
         Coding With Kids
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -7,6 +7,6 @@ const text = {
     " specializing in developing high-quality mobile and web applications.",
   contact: "Get in Touch",
   details:
-    "Currently living in Los Angeles California and building software solutions at Vertafore",
+    "Currently living in Orange County California and building software solutions at Hearth",
 };
 export default text;
