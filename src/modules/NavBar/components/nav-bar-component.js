@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "./hamburger";
-import Resume from "../../../resources/Adam_Doyle_resume.pdf";
+import Resume from "../../../resources/Adam_Doyle_Resume.pdf";
 import style from "../styles/nav-bar.jss";
 import logo from "../../../images/logo.svg";
 import ROUTES from "../../../constants/routes";

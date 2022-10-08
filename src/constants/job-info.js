@@ -1,11 +1,15 @@
 const JOB_INFO = {
   Hearth: {
     title: "Full-stack Software Engineer",
-    company: 'Hearth',
-    dates: 'Nov 2021 - Present',
+    company: "Hearth",
+    dates: "Nov 2021 - Present",
     bullets: [
-      "TCOB"
-    ]
+      "Developed, launched, and iterated on financial applications to help private contractors more effectively manage their businesses",
+      "Built web and native application,s in React, React Native, and Typescript",
+      "Developed backend services in Go",
+      "Developed and released private npm packages to bridge native SDKs to React Native projects",
+      "Interviewed and effectively participated in the hiring and onboarding of new employees",
+    ],
   },
   Vertafore: {
     title: "Software Engineer",
