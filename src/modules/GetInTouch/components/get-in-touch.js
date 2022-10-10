@@ -16,7 +16,6 @@ const GetInTouch = (props) => {
         >
           calendly.com
         </a>
-        .
       </div>
     </div>
   );
