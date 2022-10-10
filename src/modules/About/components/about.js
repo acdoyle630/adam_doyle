@@ -10,7 +10,9 @@ const About = (props) => {
         <div style={style.skills}>
           <div style={style.skillsColumn}>
             <li style={style.bullet}>
-              <span style={style.individualSkill[screenSize]}>JavaScript</span>
+              <span style={style.individualSkill[screenSize]}>
+                JavaScript & Typescrip
+              </span>
             </li>
             <li style={style.bullet}>
               <span style={style.individualSkill[screenSize]}>HTML & CSS</span>
@@ -35,7 +37,7 @@ const About = (props) => {
               <span style={style.individualSkill[screenSize]}>Express</span>
             </li>
             <li style={style.bullet}>
-              <span style={style.individualSkill[screenSize]}>Cypress</span>
+              <span style={style.individualSkill[screenSize]}>Go</span>
             </li>
           </div>
           <div style={style.skillsColumn}>
