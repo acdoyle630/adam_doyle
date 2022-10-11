@@ -10,6 +10,7 @@ const GetInTouch = (props) => {
       <div style={styles.contact}>{text.EMAIL}</div>
       <div style={styles.contact}>
         <a
+          style={styles.link}
           href="https://calendly.com/acdoyle630/"
           target="_blank"
           rel="noopener noreferrer"
