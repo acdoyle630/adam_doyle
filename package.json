@@ -5,7 +5,7 @@
   "homepage": "https://acdoyle630.github.io/adam_doyle/",
   "devDependencies": {
     "gh-pages": "2.0.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "@material-ui/core": "^3.6.1",
@@ -22,7 +22,7 @@
     "react-dom": "^16.6.0",
     "react-redux": "^8.0.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "5.0.1",
     "react-scrollbar": "^0.5.4",
     "react-scrollbar-js": "^1.0.1",
     "react-typing-animation": "^1.6.2",
