@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import style from "../styles/headline.jss";
-import ContactContainer from "../../Contact/containers/contact-container";
 import { openContactModal } from "../../../actions/contact-modal";
 import text from "../text/text.js";
 import ROUTES from "../../../constants/routes";
@@ -64,7 +63,6 @@ class Headline extends Component {
         >
           {text.contact}
         </div>
-        <ContactContainer />
       </div>
     );
   }
