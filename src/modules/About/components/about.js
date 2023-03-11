@@ -11,7 +11,7 @@ const About = (props) => {
           <div style={style.skillsColumn}>
             <li style={style.bullet}>
               <span style={style.individualSkill[screenSize]}>
-                JavaScript & Typescrip
+                JavaScript & Typescript
               </span>
             </li>
             <li style={style.bullet}>

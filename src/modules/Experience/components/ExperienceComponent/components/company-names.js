@@ -5,7 +5,19 @@ import COMPANY_NAMES from "../../../../../constants/company-names";
 const CompanyNames = (props) => {
   return (
     <div style={style.companyNameList[props.screenSize]}>
-       <div
+      <div
+        style={
+          props.selectedCompany === COMPANY_NAMES.BEACON_BIOSIGNALS
+            ? style.selectedCompany
+            : style.companyName
+        }
+        onClick={() => {
+          props.selectCompany(COMPANY_NAMES.BEACON_BIOSIGNALS);
+        }}
+      >
+        Beacon Biosignals
+      </div>
+      <div
         style={
           props.selectedCompany === COMPANY_NAMES.HEARTH
             ? style.selectedCompany

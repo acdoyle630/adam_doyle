@@ -17,16 +17,6 @@ const GetInTouch = (props) => {
           hello@adamdoyle.dev
         </a>
       </div>
-      <div style={styles.contact}>
-        <a
-          style={styles.link}
-          href="https://calendly.com/acdoyle630/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          calendly.com
-        </a>
-      </div>
     </div>
   );
 };

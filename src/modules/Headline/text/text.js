@@ -7,6 +7,6 @@ const text = {
     " specializing in developing high-quality mobile and web applications.",
   contact: "Get in Touch",
   details:
-    "Currently living in Orange County California and building software solutions at Hearth",
+    "Currently living in Orange County California and building software solutions at Beacon Biosignals",
 };
 export default text;

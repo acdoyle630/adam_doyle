@@ -1,8 +1,19 @@
 const JOB_INFO = {
+  "Beacon Biosignals": {
+    title: "Senior Software Engineer",
+    company: "Beacon Biosignals",
+    dates: "Jan 2023 - Present",
+    bullets: [
+      "Developed and maintained a suite of React-based applications that provided real-time data visualization and analysis of complex algorithms",
+      "Leveraged GraphQL as the priamry data-fetching and managment layer",
+      "Utilized React's component-based architecture to build reusable and modular UI components, maximizing development efficiency and minimizing duplication of code",
+      "Developed and maintaned inhouse UI Component libarary with storybook promoting UI/UX consistency across platform and company",
+    ],
+  },
   Hearth: {
     title: "Full-stack Software Engineer",
     company: "Hearth",
-    dates: "Nov 2021 - Present",
+    dates: "Nov 2021 - Nov 2022",
     bullets: [
       "Developed, launched, and iterated on financial applications to help private contractors more effectively manage their businesses",
       "Built web and native application,s in React, React Native, and Typescript",
