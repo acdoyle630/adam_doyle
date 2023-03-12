@@ -5,9 +5,9 @@ const JOB_INFO = {
     dates: "Jan 2023 - Present",
     bullets: [
       "Developed and maintained a suite of React-based applications that provided real-time data visualization and analysis of complex algorithms",
-      "Leveraged GraphQL as the priamry data-fetching and managment layer",
+      "Leveraged GraphQL as the primary data-fetching and management layer",
       "Utilized React's component-based architecture to build reusable and modular UI components, maximizing development efficiency and minimizing duplication of code",
-      "Developed and maintaned inhouse UI Component libarary with storybook promoting UI/UX consistency across platform and company",
+      "Developed and maintained in-house UI Component library with storybook promoting UI/UX consistency across platform and company",
     ],
   },
   Hearth: {
@@ -29,7 +29,7 @@ const JOB_INFO = {
     bullets: [
       "Software Engineer working on web applications using React.js",
       "Contributor and maintainer to greenfield products aimed at modernizing the insurance industry",
-      "Contributor and maintainer to multiple custom inhouse UI Libraries promoting UI/UX consistency across platform and company",
+      "Contributor and maintainer to multiple custom in-house UI Libraries promoting UI/UX consistency across platform and company",
       "Responsible for writing, reviewing and testing code",
       "Create reusable components leveraging custom hooks and providers",
       "Mentor new developers as part of a mentorship pilot program",

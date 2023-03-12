@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { openAbout, closeAbout } from "../../../actions/about-action";
 import NavBarComponent from "../components/nav-bar-component";
-import resume from "../../../resources/Adam_Doyle_Resume_2022.pdf";
+import resume from "../../../resources/Adam_Doyle_Resume_2023.pdf";
 import style from "../styles/nav-bar.jss.js";
 import ROUTES from "../../../constants/routes";
 
@@ -46,7 +46,4 @@ const mapDispatchToProps = (dispatch) =>
     dispatch
   );
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(NavBarContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(NavBarContainer);
